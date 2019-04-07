@@ -6,6 +6,10 @@
 この熱力学モデルは、ある量のリン脂質を水に溶かしたときに、モノマーの量と、ミセルの量がどれだけかを見積もるのが目的です。
 比熱を測る装置であるDSC(Differential Scanning Calorimetry)装置から得られた実験データをモデルにあてはめ、一番誤差関数が小さくなるようなパラメータを求めます。
 
+## リポジトリの内容  
+MAFit.cpp 熱力学モデルをC++で実装したもの
+MAFit     MAFit.cppをコンパイルしたバイナリーファイル
+(FreeBSD 10.3-STABLE FreeBSD clang version 3.4.1)
 
 ## 使い方
 コンパイルはclang++で  
