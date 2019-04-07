@@ -7,8 +7,8 @@
 比熱を測る装置であるDSC(Differential Scanning Calorimetry)装置から得られた実験データをモデルにあてはめ、一番誤差関数が小さくなるようなパラメータを求めます。
 
 ## リポジトリの内容  
-MAFit.cpp 熱力学モデルをC++で実装したもの
-MAFit     MAFit.cppをコンパイルしたバイナリーファイル
+MAFit.cpp 熱力学モデルをC++で実装したもの  
+MAFit     MAFit.cppをコンパイルしたバイナリーファイル  
 (FreeBSD 10.3-STABLE FreeBSD clang version 3.4.1)
 
 ## 使い方
