@@ -9,7 +9,8 @@
 ## リポジトリの内容  
 MAFit.cpp 熱力学モデルをC++で実装したもの  
 MAFit     MAFit.cppをコンパイルしたバイナリーファイル  
-(FreeBSD 10.3-STABLE FreeBSD clang version 3.4.1)
+(FreeBSD 10.3-STABLE FreeBSD clang version 3.4.1)  
+MAModel_short.pdf 熱力学モデルの詳細  
 
 ## 使い方
 コンパイルはclang++で  
@@ -23,6 +24,7 @@ $ MAFit -h
 - DSCの実測データと、パラメーターを動かす範囲を入力すると、パラメーターを動かしながら、誤差関数を計算して出力します。最後に誤差関数が一番小さくなるようなパラメーターを表示します。  
 
 ## 熱力学モデル
+![pdf](./MAModel_short.pdf)
 
 
 ## DSCファイルのフォーマット
