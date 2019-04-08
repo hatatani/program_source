@@ -7,11 +7,11 @@
 比熱を測る装置であるDSC(Differential Scanning Calorimetry)装置から得られた実験データをモデルにあてはめ、一番誤差関数が小さくなるようなパラメータを求めます。
 
 ## リポジトリの内容  
-- MAFit.cpp :熱力学モデルをC++で実装したもの  
-- MAFit :MAFit.cppをコンパイルしたバイナリーファイル(FreeBSD 10.3-STABLE FreeBSD clang version 3.4.1)  
-- MAModel_short.pdf :熱力学モデルの詳細  
-- 15mM, 16mM, 18mM, 20mM :それぞれDHPC15mM, 16mM, 18mM, 20mMのDSCの実測データ(mMは濃度の単位で、mM=mmol/lです)  
-- monomer, micelle :それぞれモノマーとミセルの熱容量(J/K mol)のデータ  
+- MAFit.cpp &nbsp;&nbsp;:熱力学モデルをC++で実装したもの  
+- MAFit &nbsp;&nbsp;:MAFit.cppをコンパイルしたバイナリーファイル(FreeBSD 10.3-STABLE FreeBSD clang version 3.4.1)  
+- MAModel_short.pdf &nbsp;&nbsp;:熱力学モデルの詳細  
+- 15mM, 16mM, 18mM, 20mM &nbsp;&nbsp;:それぞれDHPC15mM, 16mM, 18mM, 20mMのDSCの実測データ(mMは濃度の単位で、mM=mmol/lです)  
+- monomer, micelle &nbsp;&nbsp;:それぞれモノマーとミセルの熱容量(J/K mol)のデータ  
 
 ## 使い方
 コンパイルはclang++で  
