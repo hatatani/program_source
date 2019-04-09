@@ -37,7 +37,6 @@ $ MAFit -M 15 -n 20 -Tr 315 -b 29 -Cp1 monomer -Cp2 micelle > 15mM_model
 $ gnuplot  
 gnuplot> plot "15mM_model" using 1:10  
 <br/>
-
 また、次のようにすれば、実測とモデルの計算結果を比較することができます。  
 gnuplot> plot "15mM_model" using 1:10 15mM using 1:2  
 
@@ -58,7 +57,7 @@ $ MAFit -M auto 15mM 16mM 18mM 20mM -Cp1 monomer -Cp2 micelle -move n -Tr 315 -m
 ## DSCファイルのフォーマット
 DSCの実験装置からの出力は次のようなフォーマットになっています。  
 
-'# 1:温度(Celsius) 2:比熱(J/K)'  
+1:温度(Celsius) 2:比熱(J/K)  
 0.000   0.00004792  
 0.032   0.00002448  
 0.069   0.00002077  
