@@ -36,10 +36,11 @@ $ MAFit -M 15 -n 20 -Tr 315 -b 29 -Cp1 monomer -Cp2 micelle
 <br/>
 $ MAFit -M 15 -n 20 -Tr 315 -b 29 -Cp1 monomer -Cp2 micelle > 15mM_model  
 $ gnuplot  
-gnuplot> plot "15mM_model" using 1:10  
+gnuplot> plot "15mM_model" using 1:10 with line  
 <br/>
 また、次のようにすれば、実測とモデルの計算結果を比較することができます。  
-gnuplot> plot "15mM_model" using 1:10 15mM using 1:2  
+gnuplot> plot "15mM_model" using 1:10 title "15mM_model" with line, "15mM" using 1:2 title "15mM_experiment" with line  
+<img src="./graph2.png" width="400">
 
 
 ### DSCの実測データと、パラメーターを動かす範囲を入力すると、パラメーターを動かしながら、誤差関数を計算して出力します。最後に誤差関数が一番小さくなるようなパラメーターを表示します。  
