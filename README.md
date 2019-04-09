@@ -28,12 +28,12 @@ $ MAFit -h
 ### パラメーターを入力すると、それに対応したDSCの実測データを出力します。  
 例えばDHPC15mMのDSC測定データを計算する場合は次のようにします。  
 <br/>
-$ MAFit -M 15 -n 20 -Tr 315 -b 30 -Cp1 monomer -Cp2 micelle  
+$ MAFit -M 15 -n 20 -Tr 315 -b 29 -Cp1 monomer -Cp2 micelle  
 <br/>
 -Mは試料の濃度、-n, -Tr, -bはパラメーター(パラメーターの意味についてはMAModel_short.pdfを参照)、-Cp1, -Cp2はそれぞれ、モノマーの比熱、ミセルの比熱です。パラメーターについては自由に変更することができます。また、比熱については、Cp1, Cp2, dCp（Cp1-Cp2）のうち二つを指定することが必要です。計算に足りないパラメーターがあれば、エラーが出ます。  
 計算の詳細を表示した後に、エンターを押すと、標準出力に計算結果を表示します。これをファイルに出力し、gnuplotなどのプロット用ソフトを用いてプロットします。実測のDSCデータに対応する、温度と比熱は、1列目と10列目です。    
 <br/>
-$ MAFit -M 15 -n 20 -Tr 315 -b 30 -Cp1 monomer -Cp2 micelle > 15mM_model  
+$ MAFit -M 15 -n 20 -Tr 315 -b 29 -Cp1 monomer -Cp2 micelle > 15mM_model  
 $ gnuplot  
 gnuplot> plot "15mM_model" using 1:10  
 <br/>
