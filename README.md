@@ -50,6 +50,8 @@ gnuplot> plot "15mM_model" using 1:10 title "15mM_model" with line, "15mM" using
 $ MAFit -M auto 15mM 16mM 18mM 20mM -Cp1 monomer -Cp2 micelle -move n -Tr 315 -move b  
 <br/>
 -moveオプションで動かすパラメーターを指定します。上では、nとbを動かすパラメーターとして指定し、Trを315に固定しています。また、15mM, 16mM, 18mM, 20mMの4つの実験データを与えて、これとの誤差を計算して5列目に出力していきます。動かすパラメーターの範囲は、-sn, -en, -dn　でパラメーターnの開始、終了、間隔を決めることができます。b, Tr, dCpについても同様です。(-hでヘルプを参照)  
+<img src="./graph3.png" width="400">
+<img src="./graph4.png" width="400">
 
 ## モデル
 以下のようなモデルを実装しています。
