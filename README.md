@@ -4,7 +4,8 @@
 このリポジトリにあるMAFit.cppは、熱力学モデルをC++で実装したものであり、研究用に作成したものです。  
 両親媒性分子であるリン脂質は、単独で存在するモノマーの状態と、会合体として存在するミセルの状態の二つを取ります。
 この熱力学モデルは、ある量のDHPC(1,2-dihexanoyl-sn-glycero-3-phosphocholine)を水に溶かしたときに、モノマーの量と、ミセルの量がどれだけかを見積もるのが目的です。
-比熱を測る装置であるDSC(Differential Scanning Calorimetry)装置から得られた実験データをモデルにあてはめ、一番誤差関数が小さくなるようなパラメータを求めます。
+比熱を測る装置であるDSC(Differential Scanning Calorimetry)装置から得られた実験データをモデルにあてはめ、一番誤差関数が小さくなるようなパラメータを求めます。  
+<img src="./monomer_and_micelle.jpg" width="500">
 
 ## リポジトリの内容  
 - MAFit.cpp &nbsp;&nbsp;:熱力学モデルをC++で実装したもの  
